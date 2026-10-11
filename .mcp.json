@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "rea": {
+      "type": "stdio",
+      "command": "bash",
+      "args": ["${CLAUDE_PROJECT_DIR:-.}/.claude/rea-mcp.sh"]
+    }
+  }
+}
